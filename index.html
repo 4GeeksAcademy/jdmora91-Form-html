@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="Big-Box">      
+      <div class="container">      
+      <div class="row rounded-1">      
+      
+    <div class="header">   
+      <div class="container">       
+      <div class="titulo">
+        <div class="mt-3 col-12 rounded">      
+          <h2>Payment Form Example</h2>
+        </div>
+      </div>
+    </div>
+    </div>
+   
+  <div class="container p-5 text-dark border border-1 margin mt-1rounded-2">
+
+      <div class="parrafo">
+        <div class="row">
+          <div class="col-12 alert alert-danger border border-0 m-1fs-5 fw-bold" role="alert">
+            Some fields are missing
+          </div>      
+        </div>
+      </div>
+  
+    <div class="row g-3 ">
+    
+      <div class="col-sm-7 ">
+        Card #
+        <input type="text" class="form-control" placeholder="xxxxxxxxxxxx" aria-label="City">
+
+      </div>
+      <div class="col-2">
+        CVC #
+        <input type="text" class="form-control" placeholder="00000" aria-label="State">
+
+      </div>
+      <div class="col-3">
+        Amount
+        <input type="text" class="form-control" placeholder="Amount" aria-label="Zip">
+      </div>
+   
+    </div>
+    <div class="row g-3 mt-1 mb-2">
+      <div class="col">
+        <h5>First Name</h5>
+        <input type="text" class="form-control" placeholder=>
+      </div>
+      <div class="col">
+        <h5>Last Name</h5>
+        <input type="text" class="form-control" placeholder=>
+      </div>
+    </div>
+
+    <div class="Adress">
+      <div class="row g-3 mt-1 mb-2">
+        <div class="col-sm-7">
+          City
+          <input type="text" class="form-control" placeholder=>
+        </div>
+        <div class="col-sm">
+          State
+          <select class="form-control">
+            <option selected><strong>Pick a state</strong></option>
+            <option value="1">MN</option>
+            <option value="2">NY</option>
+            <option value="3">FL</option>
+            <option value="4">ND</option>
+            <option value="5">SD</option>
+            <option value="6">CS</option>
+            <option value="7">IL</option>
+            <option value="8">CL</option>
+          </select>
+        </div>
+        <div class="col-sm">
+          Postal Code
+          <input type="text" class="form-control" placeholder=>
+        </div>
+      </div>
+    </div>
+    <div class="tarj">
+         <div class="title-card p-2"> <h5>We accept:</h5></div>
+         <div class="row">
+          
+          <div class="col-4 col-auto me-auto border border-0 bg-secondary fs-4 h-25 rounded">      
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-diners-club"></i></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-amex"></i></label>
+          </div>
+        </div>
+      
+        <div class="message col-6">
+          <div class="row"></div>
+          <div class="col-6 col-auto">
+            <h4>Message</h4>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="80" placeholder=></textarea>
+            <p>Add any notes here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="footer border border-1 mt-4p-4 fs-0">      
+
+      <div class="row justify-content-end fs-1">      
+
+
+        <div class="col-2 b-1 mt-1 p-2">      
+          <button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+          <button type="button" class="btn btn-primary btn-lg">Send</button>
+
+        </div>
+      </div>
+    </div>
+  </div></div>
+  </div>
+
+</body>
+
+</html>

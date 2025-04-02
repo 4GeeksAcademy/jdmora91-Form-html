@@ -1,0 +1,22 @@
+body .Big-Box{ 
+    border: solid 2px rgba(0, 0, 0, 0.116);
+    padding-top: 2rem;
+}
+body .header{
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    background: rgb(247, 245, 245);
+    padding-bottom: 1rem;
+}
+body .footer{
+    background: rgb(247, 245, 245);
+
+}
+body .card-logo{
+    border: solid 1px black;
+}
+i{
+
+    color: white;
+}
