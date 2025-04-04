@@ -1,20 +1,38 @@
-body .Big-Box{ 
-    border: solid 2px rgba(0, 0, 0, 0.116);
-    padding-top: 2rem;
+form{
+    padding: 5rem;
+    font-size: 100%;
+    background: white;
+    border: solid 2px rgba(128, 128, 128, 0.500);
 }
 body .header{
-    padding-left: 0px;
-    padding-right: 0px;
-    border: 2px solid rgba(0, 0, 0, 0.116);
-    background: rgb(247, 245, 245);
-    padding-bottom: 1rem;
-}
-body .footer{
-    background: rgb(247, 245, 245);
+    border-bottom: solid 2px rgba(128, 128, 128, 0.500);
+    padding: 9px;
+    background: rgba(128, 128, 128, 0.100);
 
+}
+
+body .footer{
+    background: rgba(128, 128, 128, 0.100);
+    border-bottom: solid 1px rgba(128, 128, 128, 0.500);
+    border-top: solid 1px rgba(128, 128, 128, 0.500);
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 9px;
 }
 body .card-logo{
     border: solid 1px black;
+}
+body .Big-Box{
+    border: solid 2px rgba(128, 128, 128, 0.500);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+   
+}
+body .cards{
+    padding-left: 3px;
+    height: 45px;
+    width: 30%;
 }
 i{
 
